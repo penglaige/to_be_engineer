@@ -5,6 +5,8 @@ This is a to do list to train myself to become a software engineer
  
 **Task Lists**
 - [x] the first round of interview bit
-- [ ] linux system
-- [ ] HTML
+- [ ] leetcode
+- [ ] HTML/CSS
+- [ ] MySQL
+- [ ] Django
 
