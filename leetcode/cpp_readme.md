@@ -9,6 +9,10 @@ int x = char - 'a';
 + 使用map当做dictionary， 判断是否有key，可以用count来判断，有为1，没有为0.
 
 ## 常用技能
++ 查看数据结构byte数
+```
+sizeof(int);
+```
 + c++ string to digit
 ```
 string str1;
@@ -46,18 +50,18 @@ s = str(num)
   - 追加：push_back();
   - 除掉最后一个：pop_back();
 + sort
-    sort(target.begin(),target.end());
+  - sort(target.begin(),target.end());
 + map
-    map定义的时候就是empty
-    是否有key: map.count()==0;
-    insert: insert( pair<int,int>(1,1) );
-    取值：[]
+  - map定义的时候就是empty
+  - 是否有key: map.count()==0;
+  - insert: insert( pair<int,int>(1,1) );
+  - 取值：[]
 + string
 ```
 stirng::iterator it;
 it = string.begin();
 ```
-    string.push_back();
+  - string.push_back();
 
 
 
