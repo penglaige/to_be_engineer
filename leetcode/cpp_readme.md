@@ -42,9 +42,9 @@ s = str(num)
 ```
 ## data structure
 + vector：
-  赋值：vector<int> v = {};
-  追加：push_back();
-  除掉最后一个：pop_back();
+  - 赋值：vector<int> v = {};
+  - 追加：push_back();
+  - 除掉最后一个：pop_back();
 + sort
     sort(target.begin(),target.end());
 + map
