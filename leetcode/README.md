@@ -96,7 +96,19 @@ finally:
 ## argv parse
 + cpp
 ```
-
+int main(int argc, char* argv[])
+{
+    // argv contains the actual command-line arguments as an array of strings
+    // do sth here
+    return 0;
+    if(argc < 2)
+    {
+        // Show help, tell the user how to run the program
+        std::cerr << "Usage: " << argv[0] << "Name" << std::endl;
+        return 1;
+    }
+    return 0;
+}
 ```
 + python
 ```
