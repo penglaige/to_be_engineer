@@ -129,6 +129,32 @@ for key, value in sorted_by_value:
     ......
 ```
 ## 常用技能
++ c++ 整除
+  - （int)(a+b);
++ python整除：
+  - c = a // b
+  - c = int(a/b)
++ pass array to function,3 ways:因为传递的是地址，所以传递的是实参
+```
+// 1
+void function(int *param)
+{
+
+}
+
+//2
+void function(int param[10])
+{
+
+}
+
+//3 
+void function(int param[])
+{
+
+}
+
+```
 + infinity
   - INT_MAX
   - INT_MIN
@@ -136,6 +162,7 @@ for key, value in sorted_by_value:
 ```
 sizeof(int);
 ```
++ c++ int number to char: char c = '0' + i;
 + c++ string to digit
 + atoi只能转char*,如果只是char的话,参考下文。
 ```
@@ -177,6 +204,7 @@ s = str(num)
   - 2d vector: vector<vector<int>> vect;
   - vector 定义大小赋值，比如说想要一个nxn的二维矩阵：
 ```
+vector<class> ants(num_ants);
 vector<int> v (n,0);
 vector<vector<int>> dp (n,v);
 ```
@@ -205,7 +233,9 @@ it = string.begin();
 ```
   - string.push_back();
 
-
+## compile memo
++ gcc for c, g++ for c++
++ g++ -o name name.cpp
 
 
 
