@@ -129,6 +129,14 @@ for key, value in sorted_by_value:
     ......
 ```
 ## 常用技能
++ c++ sort
+  - sort(iterator.first,iterator.second,compare comp);
+  - 其中compare comp是一个函数
+```
+bool myfunction (int i,int j) { return (i<j);  }
+std::sort (myvector.begin()+4, myvector.end(), myfunction);
+```
++ c++ power: std::pow(x,n);
 + c++ 整除
   - （int)(a+b);
 + python整除：
@@ -197,6 +205,43 @@ num = 123
 s = str(num)
 ```
 ## data structure
++ struct
+    - struct 对象创建；
+    - struct 内部也可以写函数，默认为public；
+    - 如果从指针开始创建，则需要malloc
+```
+// class ではなくて struct
+struct person{
+    int id;
+    int age;
+    std::string name;
+
+    // 情報を出力する関数
+    void
+    print(){
+        std::cout << "id:"   << id << std::endl;
+        std::cout << "age:"  << age << std::endl;
+        std::cout << "name:" << name << std::endl;
+                                                
+    }
+};
+
+person homu = { 0, 14, "homu"  };
+homu.print();
+```
+    - 直接创建指针：
+```
+struct Node* head = NULL;
+void insert(int new_data)
+{
+    struct Node* new_node = (struct Node*) malloc(sizeof(struct Node));
+    // struct Node* new_node;
+    new_node->data = new_data;
+    new_node->next = head;
+    head = new_node;
+
+}
+```
 + vector：
   - 赋值：vector<int> v = {};
   - 追加：push_back();
