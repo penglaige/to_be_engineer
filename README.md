@@ -1,7 +1,7 @@
 # to_be_engineer
 This is a to do list and memo to train myself to become a software engineer
----
-##Table of Contents
+
+## Table of Contents
 - Programming language
     - C++
     - Ptyhon
