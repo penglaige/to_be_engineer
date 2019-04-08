@@ -39,6 +39,13 @@ This is a knowledge list to train myself to become a software engineer
 
 ## Algorithms
 - [Leetcode solution](https://github.com/penglaige/to_be_engineer/tree/master/leetcode)
+- [BFS]()
+- [DFS]()
+- [Greedy]()
+- [Sliding window](https://www.techiedelight.com/sliding-window-problems/)
+- [Devide and conquer]()
+- [Recursion]()
+- [Dynamic programming]()
 ## Objected oriented design
 
 ## Operation systems
