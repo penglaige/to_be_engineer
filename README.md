@@ -1,5 +1,46 @@
 # to_be_engineer
 This is a to do list and memo to train myself to become a software engineer
+---
+##Table of Contents
+- Programming language
+    - C++
+    - Ptyhon
+- Data structures
+- Algorithms
+- Objected oriented design
+- Operation systems
+- Database
+
+---
+## Programming language
+<details>
+<summary> C++ </summary>
+- Basic concept
+- Self-memo
+</details>
+
+<details>
+<summary> Python </summary>
+- Basic concept
+- Self-memo
+</details>
+
+## Data structures
+- Array
+- Stack
+- Heap
+- Queue
+- Hash
+- Binary tree
+- Graph
+
+## Algorithms
+
+## Objected oriented design
+
+## Operation systems
+
+## Database
 
 ## programming training(algorithm & data structure)
 + [x] interview bit
