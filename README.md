@@ -15,12 +15,14 @@ This is a to do list and memo to train myself to become a software engineer
 ## Programming language
 <details>
 <summary> C++ </summary>
+
 - Basic concept
 - Self-memo
 </details>
 
 <details>
 <summary> Python </summary>
+
 - Basic concept
 - Self-memo
 </details>
