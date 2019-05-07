@@ -46,6 +46,7 @@ This is a knowledge list to train myself to become a software engineer
 - [Devide and conquer]()
 - [Recursion]()
 - [Dynamic programming]()
+- [Inclusion–exclusion principle](https://blog.csdn.net/xianglunxi/article/details/9310105)
 ## Objected oriented design
 
 ## Operation systems
