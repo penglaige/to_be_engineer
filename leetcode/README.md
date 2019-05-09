@@ -115,6 +115,7 @@ int main(int argc, char* argv[])
 
 ```
 ## 代码技巧
++ i & 1 == 1, i为奇数，否则为偶数，用来判断奇偶数
 + single quote -- char; double quote -- stirng;
 ```
 int x = char - '0';
