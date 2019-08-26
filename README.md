@@ -47,6 +47,7 @@ This is a knowledge list to train myself to become a software engineer
 - [Recursion]()
 - [Dynamic programming]()
 - [Inclusion–exclusion principle](https://blog.csdn.net/xianglunxi/article/details/9310105)
+- [链表求环问题](https://github.com/penglaige/to_be_engineer/blob/master/leetcode/141.md)
 ## Objected oriented design
 
 ## Operation systems
